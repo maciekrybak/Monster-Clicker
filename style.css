@@ -47,7 +47,6 @@ body {
 
 #Container3 {
     background-color: rgb(50, 19, 80);
-    height: 200px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -83,14 +82,20 @@ body {
 #Container3_5 {
     background-color: rgb(27, 19, 37);
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Zmieniamy z grid na flex */
+    flex-direction: column; /* Ustawiamy pionowo */
     border-style: outset;
     border-color: #10072a;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex: 1; 
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
+
+
+.counters {
+    color: white;
+}
+
 
 .buttons {
     border-radius: 10px;
@@ -151,10 +156,6 @@ body {
     box-shadow: 0 0 5px rgba(145, 145, 145, 0.3);
 }
 
-
-.counters {
-    color: white;
-}
 
 #zombie_shp{
     border-color: #b7fff1;
